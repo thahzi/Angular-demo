@@ -13,4 +13,9 @@ export class EmployeeComponent {
   getDesg(event:any){
     console.log(event.target.value)
   }
+
+  getSalary(sal:any){
+    console.log(sal.value);
+    
+  }
 }

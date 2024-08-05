@@ -1,0 +1,22 @@
+
+<div class="row w-100">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 ">
+        <form class="shadow p-5 mt-5">
+            <p class="text-center my-5">register works!</p>
+            <div class="mb-3">
+                <input type="text" class="form-control"   placeholder="username" [(ngModel)]="username" name="user">
+            </div>
+
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="email" [(ngModel)]="email" name="emial">
+            </div>
+            
+            <div class="mb-3 ">
+                <input type="text" class="form-control" placeholder="password" [(ngModel)]="password" name="pass"></div>
+
+            <div><button class="btn btn-info w-100"(click)="register()">register</button></div>
+        </form>
+    </div>
+    <div class="col-md-4"></div>
+</div>
